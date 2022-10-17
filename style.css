@@ -1,0 +1,77 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* header */
+.s_upper_bar li{
+    display: inline;
+}
+
+.s_upper_bar .s_upper_bar_li:hover{
+    text-decoration: underline;
+}
+
+.s_upper_bar a{
+    color: #ffffff8c;
+    text-decoration: none;
+}
+
+.s_upper_bar .s_title_upper_bar{
+    font-family: 'Italianno', cursive;
+    font-size: 1.5rem;
+    padding-left: 0;
+    padding-right: 58px;
+    color: #ffffff;
+}
+
+.s_upper_bar_btn{
+    background-color: #44aacc;
+    padding: 2px 15px;
+    border-radius: 12px;
+}
+
+.s_upper_bar_btn:hover{
+    border-style: double;
+    padding: 1px 12px;
+}
+
+.s_upper_bar_btn a{
+    color: #212529;
+}
+
+
+/* navbar */
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+.navbar-brand img{
+    width: 65%;
+    padding-left: 45px;
+}
+
+.navbar-nav li{
+    margin-right: 1.5rem;
+}
+
+.nav-item a{
+    color: #ffffff;
+}
+
+.nav-item a:hover{
+    color: #44aacc;
+}
+
+.s_cart_icon{
+    color: #ffffff;
+}
+
+.fa-cart-arrow-down{
+    font-size: 1.8rem;
+}
+
+.fa-cart-arrow-down:hover{
+    color: #44aacc;
+}
