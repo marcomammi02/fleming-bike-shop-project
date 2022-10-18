@@ -2,6 +2,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.s_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /* header */
 .s_upper_bar li{
@@ -21,7 +25,7 @@ body{
     font-family: 'Italianno', cursive;
     font-size: 1.5rem;
     padding-left: 0;
-    padding-right: 58px;
+    padding-right: 36px;
     color: #ffffff;
 }
 
@@ -49,6 +53,9 @@ body{
 
 .navbar-brand img{
     width: 65%;
+}
+
+.s_navbar_brand_lg img{
     padding-left: 45px;
 }
 
@@ -75,3 +82,4 @@ body{
 .fa-cart-arrow-down:hover{
     color: #44aacc;
 }
+
