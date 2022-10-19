@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
 }
 
 .s_container{
@@ -32,13 +33,14 @@ body{
 .s_upper_bar_btn{
     background-color: #44aacc;
     padding: 2px 15px;
+    border: 2px solid #44aacc;
     border-radius: 12px;
 }
 
 .s_upper_bar_btn:hover{
-    border-style: double;
-    padding: 1px 12px;
+    border-color: #ffffff;
 }
+
 
 .s_upper_bar_btn a{
     color: #212529;
